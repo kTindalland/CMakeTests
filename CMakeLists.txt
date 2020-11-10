@@ -1,3 +1,11 @@
 cmake_minimum_required(VERSION 3.13)
 
-add_executable(test source.cpp)
+project(example)
+
+enable_testing()
+
+add_subdirectory(googletest)
+
+add_library(example STATIC example.cpp example.h)
+
+add_subdirectory(tests)
