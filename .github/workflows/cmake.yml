@@ -16,10 +16,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+          
+    - uses: actions/checkout@v2
       with: 
         token: '${{ secrets.GITHUB_TOKEN }}'
         repository: google/googletest
-        path: CMakeTests/CMakeTests/googletests
+        path: $GITHUB_WORKSPACE/googletests
         ref: 'master'
 
     - name: Create Build Environment
