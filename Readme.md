@@ -1,1 +1,1 @@
-![Tests](https://github.com/kTindalland/CMakeTests/workflows/.github/workflows/cmake.yml/badge.svg)
+![Tests](https://github.com/kTindalland/CMakeTests/workflows/CMake/badge.svg)
