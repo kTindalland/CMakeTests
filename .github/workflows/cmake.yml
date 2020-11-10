@@ -21,7 +21,7 @@ jobs:
       with: 
         token: '${{ secrets.GITHUB_TOKEN }}'
         repository: google/googletest
-        path: $GITHUB_WORKSPACE/googletests
+        path: /home/runner/work/CMakeTests/CMakeTests/googletest
         ref: 'master'
 
     - name: Create Build Environment
