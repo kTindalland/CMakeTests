@@ -1,0 +1,3 @@
+/home/kai/action-testing/build/CMakeFiles/rebuild_cache.dir
+/home/kai/action-testing/build/CMakeFiles/test.dir
+/home/kai/action-testing/build/CMakeFiles/edit_cache.dir
