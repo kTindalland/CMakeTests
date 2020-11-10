@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with: 
-        token: '${{ secrets.GITHUB_PAT }}'
+        token: '${{ secrets.GITHUB_TOKEN }}'
         repository: google/googletest
         path: googletest/
         ref: 'master'
