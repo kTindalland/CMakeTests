@@ -2,6 +2,6 @@
 
 TEST(AllTests, Test1) {
 
-	ASSERT_EQ(true, false);
+	ASSERT_EQ(true, true);
 
 }
